@@ -1,0 +1,112 @@
+
+.bg {
+  position: absolute;
+  width: 100%;
+  opacity: 1;
+}
+.navbar-brand {
+  font-size: 1rem;
+}
+h1 {
+  color: #FFF2F2;
+  font-size: 7rem;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  position: absolute;
+  padding-top: 100px;
+}
+p {
+  color: #FFF2F2;
+    font-size: 1.5rem;
+font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    position: absolute;
+    padding-top: 260px;
+}
+
+.searchTerm {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+}
+.wrap{
+  width: 35%;
+  position: absolute;
+  top: 80%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+}
+#middle {
+  padding: 40% 40%;
+}
+.Rice {
+position: relative;
+  width: 250px;
+  height: 200;
+padding-top: 250px;
+left: -460px;
+}
+.riceCaption {
+position: relative;
+left: -460px;
+  width: 250px;
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+.Curry {
+  position: relative;
+    width: 250px;
+    height: 300;
+  padding-top: 250px;
+left:-180px;
+}
+.curryCaption {
+position: relative;
+left:-180px;
+  width: 250px;
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+.bread {
+  position: relative;
+    width: 250px;
+    height: 200;
+  padding-top: 250px;
+right: -100px;
+}
+.breadCaption {
+  position: relative;
+right: -100px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+.desserts {
+  position: relative;
+    width: 250px;
+    height: 200;
+  padding-top: 250px;
+right: -380px;
+}
+.dessertsCaption{
+  position: relative;
+right: -380px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+#abcd {
+  border-radius: 25px;
+}
