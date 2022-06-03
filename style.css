@@ -1,5 +1,7 @@
 body {
   font-family: 'Varela Round', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 .bg {
   position: absolute;
@@ -55,19 +57,17 @@ padding-top: 2%;
  margin-top: 60%;
  margin-bottom: 3%;
  padding-bottom: 5%;
-  margin-right: 2%;
+}
+#catagory {
+  background-color: #F6FBF4;
 }
 .card {
-  width: 200px;
-  height: 200px;
   border-radius: 10px;
   outline: 1px solid;
   box-shadow: 1px 1px 4px;
   cursor: pointer;
   background-color: #1e2b3e;
   margin-top: 15%;
-  display: block;
-
 }
 .card:hover {
   transform: scale(1.1);
@@ -75,35 +75,24 @@ padding-top: 2%;
 .card-title {
   font-size: 1.5vw;
   text-align: center;
-  margin-top: -5%;
 color: white;
 }
-.foodp {
-  margin-top: 4%;
-  margin-bottom: 3%;
-  padding-bottom: 15%;
-}
+
 a {
   text-decoration: none;
 }
-#catagory {
-  background-color: #F6FBF4;
-  height: 350px;
+.foodp {
+  margin-bottom: 3%;
+  padding-bottom: 5%;
 }
 #food-plates {
   background-color: #F6FBF4;
-  align-items: center;
-height: 350px;
-  margin-bottom: 1%;
 }
 .testimonial-image {
-  width: 200px;
-margin-left: 4%;
-margin-right: 4%;
-margin-top: 3%;
+width: 18%;
+margin-left: 5.2%;
 }
-
-@media (max-width:1000px) {
+@media (max-width: 1028px) {
   h1 {
     text-align: center;
     margin-top: 8%;
@@ -115,10 +104,3 @@ margin-top: 3%;
   .searchbar {
     margin-top: 35%;
   }
-}
-@media (min-width:500px) {
-#food-plates {
-  height: 450px;
-}
-
-}
