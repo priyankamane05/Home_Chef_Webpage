@@ -53,13 +53,11 @@ h3 {
 font-weight: bold;
 padding-top: 2%;
 }
-.container {
- margin-top: 60%;
- margin-bottom: 3%;
- padding-bottom: 5%;
-}
 #catagory {
-  background-color: #F6FBF4;
+  background-color: #FBF8F1;
+  margin-top: 60%;
+  margin-bottom: 3%;
+  padding-bottom: 5%;
 }
 .card {
   border-radius: 10px;
@@ -77,20 +75,34 @@ padding-top: 2%;
   text-align: center;
 color: white;
 }
-
 a {
   text-decoration: none;
+}
+#chef-list {
+  background-color: #FBF8F1;
+  margin-bottom: 3%;
+  padding-bottom: 5%;
 }
 .foodp {
   margin-bottom: 3%;
   padding-bottom: 5%;
 }
 #food-plates {
-  background-color: #F6FBF4;
+  background-color: #FBF8F1;
 }
 .testimonial-image {
 width: 18%;
-margin-left: 5.2%;
+margin-left: 5.3%;
+margin-top: 3%;
+cursor: pointer;
+}
+.carousel-control-prev-icon {
+background-color: black;
+margin-left: -40%;
+}
+.carousel-control-next-icon {
+  background-color: black;
+  margin-right: -40%;
 }
 @media (max-width: 1028px) {
   h1 {
