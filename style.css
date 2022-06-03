@@ -116,3 +116,7 @@ margin-left: -40%;
   .searchbar {
     margin-top: 35%;
   }
+    .form-control {
+    font-size: 2vw;
+  }
+}
