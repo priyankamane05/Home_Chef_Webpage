@@ -104,6 +104,8 @@ margin-left: -40%;
   background-color: black;
   margin-right: -40%;
 }
+
+
 @media (max-width: 1028px) {
   h1 {
     text-align: center;
@@ -116,7 +118,7 @@ margin-left: -40%;
   .searchbar {
     margin-top: 35%;
   }
-    .form-control {
+  .form-control {
     font-size: 2vw;
   }
 }
