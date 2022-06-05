@@ -2,6 +2,7 @@ body {
   font-family: 'Varela Round', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #F9F9F9;
 }
 .bg {
   position: absolute;
@@ -67,13 +68,18 @@ padding-top: 2%;
   background-color: #1e2b3e;
   margin-top: 15%;
 }
+.card-body {
+  padding: 0;
+}
 .card:hover {
   transform: scale(1.1);
 }
 .card-title {
-  font-size: 1.5vw;
+  font-size: 2vw;
+
   text-align: center;
 color: white;
+
 }
 a {
   text-decoration: none;
@@ -120,5 +126,8 @@ margin-left: -40%;
   }
   .form-control {
     font-size: 2vw;
+  }
+  .card-title {
+    padding-top: 15%;
   }
 }
