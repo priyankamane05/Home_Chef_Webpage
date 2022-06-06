@@ -186,7 +186,7 @@ h6 {
 
 .download {
   font-size: 1vw;
-  margin-top: 27px;
+  margin-top: 20px;
   margin-bottom: 0;
   color: gray;
 }
@@ -197,7 +197,7 @@ h6 {
   margin-left: -15px;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 900px) {
   h1 {
     text-align: center;
     margin-top: 8%;
@@ -229,7 +229,7 @@ h6 {
   }
 
   h5 {
-    font-size: 4vw;
+    font-size: 4.5vw;
     text-align: center;
   }
 
@@ -240,29 +240,37 @@ h6 {
 
   .email input {
     width: 200px;
-    height: 30px;
+    height: 20px;
   }
 
   .place {
     font-size: 2vw;
-    margin-top: -1%;
   }
-
+.flex .email input {
+  font-size: 2vw;
+  padding-left: 5px;
+}
   .email button {
     width: 75px;
-    font-size: 1vw;
+    font-size: 1.5vw;
   }
 
   .download {
     font-size: 2vw;
+    margin-top: 15px;
+  text-align: center;
   }
 
   .app img {
-    width: 170px;
+align-items: center;
+  width: 100%;
   }
 
   .address {
-justify-content: center;
+    justify-content: center;
     width: 100%;
+  }
+  .footer .row {
+    margin-right: 20%;
   }
 }
