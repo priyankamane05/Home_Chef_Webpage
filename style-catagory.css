@@ -1,0 +1,156 @@
+body {
+  font-family: 'Varela Round', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F9F9F9;
+}
+.navbar {
+  background-color: #1e2b3e;
+}
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 3vw;
+    margin-left: 5%;
+}
+.searchbar {
+  width: 35%;
+  margin-left: 15%;
+margin-bottom: -2%;
+}
+
+.home-d  {
+  cursor: pointer;
+  margin-top: 6%;
+  opacity: 50%;
+  margin-left: 30%;
+}
+.home-d:hover {
+  opacity: 100%;
+  transform: scale(1.1);
+}
+.pick-u {
+  cursor: pointer;
+  margin-top: 6%;
+    opacity: 50%;
+}
+.pick-u:hover {
+    opacity: 100%;
+  transform: scale(1.1);
+}
+.veg {
+  margin-left: 120%;
+  margin-top: 15%;
+  opacity: 50%;
+}
+.veg:hover {
+  opacity: 100%;
+transform: scale(1.1);
+}
+.non-veg {
+margin-left: 50%;
+  margin-top: 15%;
+  opacity: 50%;
+}
+.non-veg:hover {
+  opacity: 100%;
+transform: scale(1.1);
+}
+#catagory {
+  background-color: #FBF8F1;
+}
+.card {
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card-title {
+  font-size: 1.5vw;
+  color: black;
+  font-weight: bolder;
+}
+.card-text {
+  color: #7F8487;
+}
+a {
+  text-decoration: none;
+}
+@media (max-width: 1200px) {
+.navbar-brand {
+    font-size: 6vw;
+    margin-left: -1%;
+  }
+.searchbar {
+  width: 45%;
+  margin-left: -6%;
+margin-bottom: -8%;
+}
+.form-control {
+  font-size: 2vw;
+}
+.home-d {
+  opacity: 100%;
+  width: 70px;
+  height: 70px;
+  margin-top: 35%;
+}
+.pick-u {
+  opacity: 100%;
+  width: 70px;
+  height: 70px;
+    margin-top: 35%;
+}
+.veg {
+  width: 30px;
+  height: 37px;
+  opacity: 100%;
+  margin-top: 70%;
+margin-left: 60%;
+}
+.non-veg {
+  width: 30px;
+  height: 37px;
+  opacity: 100%;
+  margin-top: 70%;
+margin-left: -30%;
+}
+.card-title {
+  font-size: 5.5vw;
+}
+@media (min-width: 800px) {
+.navbar-brand  {
+  margin-left: 2%;
+}
+
+.searchbar {
+margin-top: -4%;
+}
+.home-d  {
+  width: 100px;
+  height: 100px;
+margin-top: 20%;
+}
+.pick-u {
+  width: 100px;
+  height: 100px;
+margin-top: 20%;
+}
+.veg {
+  width: 50px;
+  height: 62px;
+  margin-top: 35%;
+margin-right: 10%;
+}
+.non-veg {
+  width: 50px;
+  height: 62px;
+  margin-top: 35%;
+  margin-left: 2%;
+}
+.card-title {
+  font-size: 3vw;
+}
+}
